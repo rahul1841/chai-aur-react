@@ -12,7 +12,19 @@ function App() {
   const addValue = () => {
    // counter += 1;
    if(counter < 20){
+    // setCounter(counter + 1)
+    // setCounter(counter + 1)
+    // setCounter(counter + 1)
+    // setCounter(counter + 1)
+       // batch banega in sabka and dekhega same kaam ho rha hai so 1 baar update hoga khali
+       // do like this
+
     setCounter(counter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+
+      
     // console.log("clicked", counter);
    }
    else{
